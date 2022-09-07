@@ -1,0 +1,88 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
+    color: #152C5B;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.firstlist {
+    color: #3252DF;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget__your {
+    position: relative;
+    margin-right: 300px;
+}
+
+.forget__your h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.forget__your p {
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
