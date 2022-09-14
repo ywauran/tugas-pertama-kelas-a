@@ -39,6 +39,9 @@ li {
 
 main .show__me {
     display: flex;
+}
+
+.container {
     padding-left: 50px;
     padding-right: 50px;
     width: max-content;
@@ -48,7 +51,7 @@ main .show__me {
 
 .forget__your {
     position: relative;
-    margin-right: 300px;
+    margin-right: 150px;
 }
 
 .forget__your h2 {
@@ -60,7 +63,7 @@ main .show__me {
     color: #B0B0B0;
 }
 
-.forget__your button {
+.button {
     background-color: #3252DF;
     color: white;
     border: none;
@@ -70,7 +73,10 @@ main .show__me {
     padding-top: 10px;
     margin-top: 30px;
     cursor: pointer;
-    border-radius: 0 30px;
+    background: #3252DF;
+    border-radius: 5px;
+    /* box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3); */
+    /* border-radius: 0 30px; */
 }
 
 .travel {
@@ -87,4 +93,143 @@ main .show__me {
 .travel span {
     color: #152C5B;
     font-weight: bold;
+}
+
+.most__picked {
+    margin-top: 50px;
+}
+
+.most__picked h3{
+    color: #152C5B;
+    size: 24px;
+}
+
+.most__picked__container {
+    display: flex;
+}
+
+.pic__1 {
+    position: relative;
+    margin-right: 20px;
+}
+
+.price, .popular {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FF498B;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.detail {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color:#152C5B;
+}
+
+.pic__2 {
+    margin-bottom: 20px;
+}
+
+.house {
+    display: flex;
+    margin-top: 50px;
+}
+
+.house__pic {
+    position: relative;
+    margin-right: 23px;
+}
+
+.popular p span {
+    font-weight: 100;
+}
+
+.house__pic h4 {
+    color: #152C5B;
+}
+
+.house__pic {
+    color: #B0B0B0;
+}
+
+.happy__family {
+    display: flex;
+    margin-top: 100px;
+}
+
+.happy__family__img {
+    margin-right: 100px;
+}
+
+.star {
+    display: flex;
+}
+
+.happy__family h4 {
+    font-size: 24px;
+    color: #152C5B;
+}
+
+.happy__family h5 {
+    font-size: 32px;
+    color:#3252DF;
+}
+
+.container__footer h5 {
+    color: #152C5B;
+}
+
+.happy__family p {
+    font-size: 18px;
+    color: #152C5B;
+    font-weight: 400;
+}
+
+.container__footer {
+    display: flex; 
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.staycation__footer {
+    margin-right: 50px;
+}
+
+.staycation__footer h5 {
+    font-size: 24px;
+}
+
+.staycation__footer span {
+    color:#152C5B;
+}
+
+.staycation__footer p {
+    font-size: 18px;
+    color: #B0B0B0;
+}
+
+.staycation__footer span {
+    color: #3252DF;
+}
+
+.beginners {
+    font-size: 18px;
+}
+
+.allrights {
+    margin-top: 30px;
+}
+
+.allrights p {
+    font-size: 18px;
+    text-align: center;
+    color: #B0B0B0;
 }
